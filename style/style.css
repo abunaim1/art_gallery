@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Sacramento&display=swap");
+
+/* nav style start */
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background-color: black;
+}
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+.header a {
+  color: white;
+}
+.navbar-toggler {
+  background-color: white;
+}
+.header div > ul > li a {
+  color: white !important;
+}
+.header div > ul > li a:hover {
+  color: rgb(139, 146, 152) !important;
+}
+.navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.container-fluid {
+  display: flex;
+  justify-content: end;
+}
+.navbar-brand:hover {
+  color: aliceblue;
+}
+/* nav start end */
+
+/* banner style start */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Adjust the height as needed */
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.banner video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner h1 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-family: "Sacramento", cursive;
+  font-size: 10rem;
+}
+/* banner style done */
+/* main content style start*/
+.art-heading {
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+.art-heading h1{
+    font-size: 4rem;
+}
+.arwork-design {
+  font-family: "Sacramento", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: red;
+}
+#art-carosel{
+    width: 90%;
+    margin: auto;
+}
+.gallary-card-image{
+    height: 360px;
+    width: 370px;
+}
+.gallery-card-body{
+  position: relative;
+    width: 400px;
+    height: 550px;
+    border: 1px solid red;
+    padding: 20px;
+}
+.card-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.card-description{
+  margin: 0;
+  padding: 0;
+}
+.card-button{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 8px;
+}
+
+.registration-container{
+  padding: 100px 0px;
+}
+
+.profile-heading{
+  text-align: center;
+  padding: 30px 0px;
+  font-family: "Sacramento", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+}
+
+.profile-main{
+  width: 70%;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 20px;
+
+}
+
+.profile-info{
+  line-height: 5rem;
+}
+
+#artist-profile {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.carousel {
+  width: 100%; 
+  max-width: 400px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Ensure images take the full width of the carousel */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust the width of the controls to make them smaller */
+}
+
+
+
+/* main content style end */
+
+/* footer style start */
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.footer-contact,
+.social-media-links {
+  margin-bottom: 10px;
+}
+
+.footer-contact h1,
+.footer-contact p,
+.social-media-links h4,
+.social-media-links a {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.social-media-links a {
+  color: white;
+  margin-right: 15px;
+}
+
+.social-media-links a:last-child {
+  margin-right: 0;
+}
+.copyright-container {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+/* footer style done */
