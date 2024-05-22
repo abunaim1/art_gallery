@@ -1,5 +1,5 @@
 const loadGallery = () => {
-  fetch("http://127.0.0.1:8000/artwork/list/")
+  fetch("https://art-gallery-backend-xo72.onrender.com/artwork/list/")
     .then((res) => res.json())
     .then((data) => displayGallery(data));
 };
