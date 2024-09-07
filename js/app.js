@@ -1,5 +1,5 @@
 const loadGallery = () => {
-  fetch("https://art-gallery-backend-xo72.onrender.com/artwork/list/")
+  fetch("https://art-gallery-backend-2m0j.onrender.com/artwork/list/")
     .then((res) => res.json())
     .then((data) => displayGallery(data));
 };

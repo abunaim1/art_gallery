@@ -13,7 +13,7 @@ const registration = (event) => {
     password,
   };
   console.log(info);
-  fetch("https://art-gallery-backend-xo72.onrender.com/user/list/", {
+  fetch("https://art-gallery-backend-2m0j.onrender.com/user/list/", {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify(info),
@@ -33,7 +33,7 @@ const login = (event) => {
     email,
     password,
   };
-  fetch("https://art-gallery-backend-xo72.onrender.com/auth/token/", {
+  fetch("https://art-gallery-backend-2m0j.onrender.com/auth/token/", {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify(info),
@@ -66,7 +66,7 @@ const updateToken = (refresh) => {
   const info = {
     refresh,
   };
-  fetch("https://art-gallery-backend-xo72.onrender.com/auth/token/refresh/", {
+  fetch("https://art-gallery-backend-2m0j.onrender.com/auth/token/refresh/", {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify(info),

@@ -9,7 +9,7 @@ const getTokenFromLocalStorage = () => {
 
 const artistProfile = () => {
     const username = getTokenFromLocalStorage();
-    fetch("https://art-gallery-backend-xo72.onrender.com/artwork/list/")
+    fetch("https://art-gallery-backend-2m0j.onrender.com/artwork/list/")
         .then((res) => res.json())
         .then((data) => {
             const artistData = data.filter((item) => item.artist.username === username);
